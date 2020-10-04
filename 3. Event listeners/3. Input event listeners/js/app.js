@@ -33,8 +33,11 @@ const busqueda = document.getElementById('buscador');
 //Paste: Se ejecuta cuando pegas (CTRL + V) el texto dentro del input
 // busqueda.addEventListener('paste', obtenerEvento);
 
-//Input: Se ejecuta cuando se realizan todas la acciones anteriores
-busqueda.addEventListener('input', obtenerEvento);
+//input: Se ejecuta cuando se realizan todas la acciones anteriores
+// busqueda.addEventListener('input', obtenerEvento);
+
+//change: Se ejecuta cuando se cambia la Option en un elemento Select
+busqueda.addEventListener('change', obtenerEvento);
 
 function obtenerEvento(e) {
   // document.getElementById('encabezado').innerText = busqueda.value;

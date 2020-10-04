@@ -17,7 +17,7 @@ for (let i = 0; i < 10; i++) {
   
   if (i === 5) {
     console.log(`Voy en el 5`);
-    continue; //Termina la iteranción del bucle actual, a diferencia del break continua con la otra iteración
+    continue; //Termina la iteranción del bucle actual, a diferencia del break, continua con la otra iteración
     //Hasta acá se ejecuta el codigo si pasa por la condición
   }
 
